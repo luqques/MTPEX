@@ -33,23 +33,23 @@ const beneficioUm = {
 };
 
 const beneficioDois = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Ambiente Profissional",
+  desc: "Chegar a reuniões de negócios em um carro executivo transmite uma imagem profissional e corporativa. Isso pode ser crucial, principalmente em contextos empresariais onde a primeira impressão é fundamental.",
   image: carroSentra,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Evita Preocupações com Logística",
+      desc: "Ao utilizar um serviço de transporte executivo, você elimina preocupações com estacionamento, rotas e outros detalhes logísticos. Isso permite que você se concentre no que realmente importa, seja trabalho ou lazer.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Pontualidade",
+      desc: "Empresas de transporte executivo valorizam a pontualidade. Motoristas profissionais são treinados para garantir que você chegue ao seu destino no horário certo.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Conforto e Elegância",
+      desc: "Os serviços de transporte executivo são conhecidos pelo alto padrão de conforto e elegância.",
       icon: <SunIcon />,
     },
   ],

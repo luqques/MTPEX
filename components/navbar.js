@@ -2,6 +2,7 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
+import mtpexLogo from "../public/img/mtpex-logo.png"
 
 const Navbar = () => {
   const navigation = [
@@ -24,7 +25,7 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src={mtpexLogo}
                         alt="N"
                         width="32"
                         height="32"
@@ -89,7 +90,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+          <Link href="/" className="px-6 py-2 text-white bg-red-800 rounded-md md:ml-5">
             Log In
           </Link>
 

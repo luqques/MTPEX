@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Hero from "../components/hero";
+import Principal from "../components/principal";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
@@ -25,13 +25,13 @@ const Home = () => {
       </Head>
 
       <Navbar />
-      <Hero />
+      <Principal />
       <SectionTitle
         pretitle="Benefícios da MTPEX"
         title="Por que você deve usar nossos serviços">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Os serviços de transporte executivo são conhecidos pelo alto padrão de conforto e elegância.
+        Carros bem-mantidos, espaçosos e com interior luxuoso proporcionam uma viagem agradável,
+        especialmente em comparação com outros meios de transporte.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />

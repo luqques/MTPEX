@@ -11,22 +11,22 @@ import carroSentra from "../public/img/carro-sentra.png";
 
 const beneficioUm = {
   title: "Segurança",
-  desc: "Empresas de transporte executivo investem em medidas de segurança, incluindo motoristas treinados, carros bem-mantidos e rastreamento em tempo real. Isso proporciona uma viagem mais segura em comparação com outras opções de transporte.",
+  desc: "Na MTPEX, a segurança é nossa principal preocupação. Investimos em medidas abrangentes de segurança para garantir a tranquilidade de nossos clientes.",
   image: carroSentra,
   bullets: [
     {
       title: "Atendimento Personalizado",
-      desc: "O atendimento ao cliente é uma prioridade nesse tipo de serviço. Motoristas estão preparados para oferecer um atendimento personalizado, respeitando suas preferências e necessidades, tornando a experiência mais agradável.",
+      desc: "Desde a preferência de música, temperatura até uma conversa agradável, estamos aqui para garantir que cada momento da sua viagem seja verdadeiramente único e satisfatório.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Flexibilidade de Reservas",
-      desc: "A maioria das empresas oferece flexibilidade na reserva, permitindo que você agende os serviços de acordo com sua agenda. Isso é especialmente útil para viagens de negócios, onde os horários podem ser imprevisíveis.",
+      title: "Flexibilidade",
+      desc: "Na MTPEX, entendemos que sua agenda pode ser imprevisível, especialmente durante viagens de negócios. Por isso, oferecemos uma flexibilidade excepcional em nossas reservas. Seja qual for o horário que melhor se adequa a você, estamos prontos para atender.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Ambiente Profissional",
-      desc: "Chegar a reuniões de negócios em um carro executivo transmite uma imagem profissional e corporativa. Isso pode ser crucial, principalmente em contextos empresariais onde a primeira impressão é fundamental.",
+      title: "Acessibilidade",
+      desc: "Nossos veículos são equipados para atender às necessidades de mobilidade de todos os passageiros, garantindo uma experiência inclusiva e confortável para todos os nossos clientes.",
       icon: <CursorArrowRaysIcon />,
     },
   ],

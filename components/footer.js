@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import mtpexlogo from "../public/img/mtpex-logo.png";
+import mtpexlogo from "../public/img/mtpex-logo-4.png";
 
 export default function Footer() {
   const navigation = [
@@ -22,11 +22,9 @@ export default function Footer() {
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-red-600 dark:text-gray-100">
                 <Image
                   src={mtpexlogo}
-                  width="32"
-                  height="32"
-                  className="w-8"
+                  width="150"
+                  className="w-100"
                 />
-                <span>Márcio MTPEX</span>
               </Link>
             </div>
 

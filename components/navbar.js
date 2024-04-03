@@ -2,7 +2,7 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
-import mtpexLogo from "../public/img/mtpex-logo.png"
+import mtpexLogo from "../public/img/mtpex-logo-4.png"
 
 const Navbar = () => {
   const navigation = [
@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        {/* Logo  */}
+        {/* Logo */}
         <Disclosure>
           {({ open }) => (
             <>
@@ -34,12 +34,10 @@ const Navbar = () => {
                       <Image
                         src={mtpexLogo}
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="150"
+                        className="w-100"
                       />
                     </span>
-                    <span>MTPEX</span>
                   </span>
                 </Link>
 
@@ -73,9 +71,6 @@ const Navbar = () => {
                         {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                      Log In
-                    </Link>
                   </>
                 </Disclosure.Panel>
               </div>

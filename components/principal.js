@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import sentraImg from "../public/img/sentra-preto-e-branco.jpg";
+import sentraImg from "../public/img/banner-sentra-na-estrada.jpg";
 import whatsappIcon from "../public/img/whatsapp-icon.png";
 
 const Principal = () => {
@@ -10,11 +10,11 @@ const Principal = () => {
         <div className="flex items-center w-full lg:w-1/2 z-10">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Sua viagem com mais confiança
+              Tranquilidade em cada jornada executiva
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              A Márcio MTPEX fornece serviços de viagens executivas para empresas que desejam ter
-              confiança nas suas idas e vindas.
+              A Márcio MTPEX é sua parceira confiável em viagens executivas,
+              oferecendo serviços personalizados para empresas que buscam segurança e comodidade em todas as suas jornadas.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -33,15 +33,17 @@ const Principal = () => {
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 z-0 flex items-center justify-center w-full">
-          <div className="">
+        <div className="absolute inset-0 z-[-10] overflow-hidden opacity-30">
+          <div className="relative w-full h-full">
             <Image
               src={sentraImg}
-              className={"object-cover"}
               alt="Sentra 2023"
-              loading="eager"
-              placeholder="blur"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+              priority={true}
             />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-trueGray-900" />
           </div>
         </div>
       </Container>

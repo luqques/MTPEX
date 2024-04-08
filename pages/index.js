@@ -7,7 +7,7 @@ import { beneficioDois, beneficioUm, } from "../components/data";
 import Video from "../components/video";
 import Beneficios from "../components/beneficios";
 import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
+import Comentarios from "../components/comentarios";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 
@@ -51,12 +51,12 @@ const Home = () => {
         Carros bem-mantidos, espaçosos e com interior luxuoso proporcionam uma viagem agradável,
         especialmente em comparação com outros meios de transporte.
       </SectionTitle>
-      <Testimonials />
+      <Comentarios />
       <SectionTitle pretitle="FAQ" title="Perguntas frequentes">
         Algumas perguntas frequentes podem ser respondidas aqui.
       </SectionTitle>
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
       <Footer />
     </>
   );

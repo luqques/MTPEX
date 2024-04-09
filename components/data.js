@@ -10,23 +10,23 @@ import {
 import carroSentra from "../public/img/carro-sentra.png";
 
 const beneficioUm = {
-  title: "Segurança",
-  desc: "Na MTPEX, a segurança é nossa inicio preocupação. Investimos em medidas abrangentes de segurança para garantir a tranquilidade de nossos clientes.",
+  title: "Atendimento Personalizado",
+  desc: "Nossos serviços são diferenciados para atender às necessidades de clientes exigentes, garantindo uma excelente experiência de transporte.",
   image: carroSentra,
   bullets: [
     {
-      title: "Atendimento Personalizado",
-      desc: "Desde a preferência de música, temperatura até uma conversa agradável, estamos aqui para garantir que cada momento da sua viagem seja verdadeiramente único e satisfatório.",
+      title: "Profissionalismo",
+      desc: " Nossos motoristas são experientes e treinados, estão comprometidos com a segurança e o bem-estar dos passageiros.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Flexibilidade",
-      desc: "Na MTPEX, entendemos que sua agenda pode ser imprevisível, especialmente durante viagens de negócios. Por isso, oferecemos uma flexibilidade excepcional em nossas reservas. Seja qual for o horário que melhor se adequa a você, estamos prontos para atender.",
+      title: "Abrangência",
+      desc: "Todo o Vale do Itajaí, Oeste Catarinense, Litoral Norte e Sul, Paraná, Rio Grande do Sul e Aeroportos de Navegantes, Florianópolis, Joinville, Curitiba, dentre outros sob consulta",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Acessibilidade",
-      desc: "Nossos veículos são equipados para atender às necessidades de mobilidade de todos os passageiros, garantindo uma experiência inclusiva e confortável para todos os nossos clientes.",
+      title: "Pontualidade",
+      desc: "Valorizamos o tempo dos nossos clientes e nos esforçamos para garantir que todas as viagens sejam pontuais, proporcionando tranquilidade e eficiência",
       icon: <CursorArrowRaysIcon />,
     },
   ],

@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigation = [
     { name: "Benefícios", id: "beneficios" },
     { name: "Frota", id: "frota" },
-    { name: "Comentários", id: "comentarios" },
+    { name: "Avaliações", id: "avaliacoes" },
     { name: "Dúvidas", id: "duvidas" },
   ];
 

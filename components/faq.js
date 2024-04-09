@@ -7,8 +7,8 @@ import { ChevronUpIcon } from "@heroicons/react/24/solid";
 const Faq = () => {
   return (
     <Container className="!p-0">
-      <SectionTitle pretitle="FAQ" title="Dúvidas frequentes">
-        Algumas duvidas frequentes podem ser respondidas aqui.
+      <SectionTitle pretitle="FAQ" title="Dúvidas Frequentes">
+        Algumas dúvidas frequentes podem ser respondidas aqui.
       </SectionTitle>
 
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
@@ -39,22 +39,24 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Por que devo escolher um serviço de transporte executivo em vez de outras opções?",
+    question: "Por que devo escolher um serviço de transporte executivo?",
     answer: "Os serviços de transporte executivo oferecem conforto, pontualidade e um ambiente profissional, tornando-os ideais para viagens de negócios ou eventos importantes.",
   },
   {
     question: "Quais são os principais benefícios em termos de conforto?",
-    answer: "Carros espaçosos e bem-mantidos, interiores luxuosos, e atendimento personalizado garantem uma viagem confortável e agradável.",
+    answer: "Carros espaçosos e bem-mantidos, interiores limpos e higienizados, e uma conversa (ou silêncio) agradável à gosto do cliente.",
   },
   {
-    question: "Como posso garantir a pontualidade ao utilizar um serviço executivo?",
-    answer:
-      "As empresas priorizam a pontualidade, garantindo que motoristas estejam bem informados sobre rotas e horários, proporcionando uma experiência confiável.",
+    question: "Como a pontualidade é garantida?",
+    answer: "Com uma frota vasta de carros e motoristas qualificados, e um cronograma de viagens bem planejado, garantimos a pontualidade do serviço.",
   },
   {
     question: "Os motoristas são treinados para atender às preferências do cliente?",
-    answer:
-      "Sim, motoristas executivos são treinados para oferecer um atendimento personalizado, respeitando as preferências e necessidades individuais dos passageiros.",
+    answer: "Sim, motoristas executivos são treinados para oferecer um atendimento personalizado, respeitando as preferências e necessidades individuais dos passageiros.",
+  },
+  {
+    question: "Por onde consigo agendar uma viagem?",
+    answer: "Via WhatsApp, E-mail ou ligação. O que você achar melhor!",
   },
 ];
 

@@ -1,11 +1,21 @@
 import Image from "next/image";
 import React from "react";
+import SectionTitle from "../components/sectionTitle";
 import Container from "./container";
 
 const Beneficios = (props) => {
   const { data } = props;
   return (
     <>
+      <SectionTitle
+        pretitle="Benefícios da MTPEX"
+        title="Por que escolher a MTPEX?">
+        Os serviços de transporte executivo são reconhecidos pelo seu padrão superior de conforto e elegância.
+        Na MTPEX, elevamos essa experiência a um novo patamar.
+        Nossos veículos são cuidadosamente mantidos,
+        oferecendo espaços amplos e interiores confortáveis que garantem uma viagem verdadeiramente agradável.
+        Viaje conosco e descubra a diferença em cada viagem.
+      </SectionTitle>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
           className={`flex items-center justify-center w-full lg:w-1/2 ${props.imgPos === "right" ? "lg:order-1" : ""

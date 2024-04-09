@@ -8,7 +8,7 @@ const Beneficios = (props) => {
   return (
     <>
       <SectionTitle
-        pretitle="Benefícios da MTPEX"
+        pretitle="Benefícios"
         title="Por que escolher a MTPEX?">
         Os serviços de transporte executivo são reconhecidos pelo seu padrão superior de conforto e elegância.
         Na MTPEX, elevamos essa experiência a um novo patamar.

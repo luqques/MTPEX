@@ -2,16 +2,24 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import mtpexlogo from "../public/img/mtpex-logo-4.png";
+import mtpexlogo from "../public/img/mtpex-logo-3.png";
 
 export default function Footer() {
   const navigation = [
-    "Serviços",
-    "Frota",
-    "Viagens",
-    "Sobre",
-    "Contato",
+    { name: "Início", id: "inicio" },
+    { name: "Benefícios", id: "beneficios" },
+    { name: "Frota", id: "frota" },
+    { name: "Comentários", id: "comentarios" },
+    { name: "Dúvidas", id: "duvidas" },
   ];
+
+  const handleScrollToSection = (id) => {
+    const element = document.querySelector(`#${id}`);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div className="relative">
       <Container>
@@ -50,11 +58,17 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-red-500 focus:text-red-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                  {item}
-                </Link>
+            <div className="w-full -mt-2 -ml-3 lg:ml-0">
+              {navigation.map((menu, index) => (
+                <li key={index} className="mr-3 list-none">
+                  <a
+                    href={`#${menu.id}`}
+                    onClick={() => handleScrollToSection(menu.id)}
+                    className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800"
+                  >
+                    {menu.name}
+                  </a>
+                </li>
               ))}
             </div>
           </div>

@@ -1,14 +1,22 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
+import SectionTitle from "../components/sectionTitle";
 import userThreeImg from "../public/img/user3.jpg";
 
 const Comentarios = () => {
   return (
     <Container>
+      <SectionTitle
+        pretitle="Comentários"
+        title="Alguns comentários de clientes">
+        Os serviços de transporte executivo são conhecidos pelo alto padrão de conforto e elegância.
+        Carros bem-mantidos, espaçosos e com interior luxuoso proporcionam uma viagem agradável,
+        especialmente em comparação com outros meios de transporte.
+      </SectionTitle>
+
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">

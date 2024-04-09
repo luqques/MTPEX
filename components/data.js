@@ -11,7 +11,7 @@ import carroSentra from "../public/img/carro-sentra.png";
 
 const beneficioUm = {
   title: "Segurança",
-  desc: "Na MTPEX, a segurança é nossa principal preocupação. Investimos em medidas abrangentes de segurança para garantir a tranquilidade de nossos clientes.",
+  desc: "Na MTPEX, a segurança é nossa inicio preocupação. Investimos em medidas abrangentes de segurança para garantir a tranquilidade de nossos clientes.",
   image: carroSentra,
   bullets: [
     {
@@ -34,7 +34,7 @@ const beneficioUm = {
 
 const beneficioDois = {
   title: "Ambiente Profissional",
-  desc: "Chegar a reuniões de negócios em um carro executivo transmite uma imagem profissional e corporativa. Isso pode ser crucial, principalmente em contextos empresariais onde a primeira impressão é fundamental.",
+  desc: "Chegar a reuniões de negócios em um carro executivo transmite uma imagem profissional e corporativa. Isso pode ser crucial, iniciomente em contextos empresariais onde a primeira impressão é fundamental.",
   image: carroSentra,
   bullets: [
     {

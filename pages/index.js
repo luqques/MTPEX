@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 import { beneficioUm, } from "../components/data";
 import Beneficios from "../components/beneficios";
 import Footer from "../components/footer";
-import Avaliacoes from "../components/avaliacoes";
+// import Avaliacoes from "../components/avaliacoes";
 import Faq from "../components/faq";
 import Frota from "../components/frota";
 // import Cta from "../components/cta";
@@ -39,23 +39,18 @@ const Home = () => {
         especialmente em comparação com outros meios de transporte.
       </SectionTitle>
       <Video /> */}
-      {/* <SectionTitle
-        pretitle="Avaliações"
-        title="Alguns comentários de clientes">
-        Os serviços de transporte executivo são conhecidos pelo alto padrão de conforto e elegância.
-        Carros bem-mantidos, espaçosos e com interior luxuoso proporcionam uma viagem agradável,
-        especialmente em comparação com outros meios de transporte.
-      </SectionTitle> */}
 
       <a id="frota" />
       <Frota />
 
-      <a id="avaliacoes" />
-      <Avaliacoes />
+      {/* <a id="avaliacoes" />
+      <Avaliacoes /> */}
 
       <a id="duvidas" />
       <Faq />
+
       {/* <Cta /> */}
+
       <Footer />
     </>
   );

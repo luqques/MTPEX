@@ -9,7 +9,7 @@ export default function Footer() {
     { name: "Início", id: "inicio" },
     { name: "Benefícios", id: "beneficios" },
     { name: "Frota", id: "frota" },
-    { name: "Avaliações", id: "avaliacoes" },
+    // { name: "Avaliações", id: "avaliacoes" },
     { name: "Dúvidas", id: "duvidas" },
   ];
 

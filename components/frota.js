@@ -29,7 +29,7 @@ const Carousel = ({ children }) => {
             {React.Children.map(children, (child, i) => (
                 <div className="card-container" style={{
                     '--active': i == active ? 1 : 0,
-                    '--offset': (actvie - i) / 3,
+                    '--offset': (active - i) / 3,
                     '--direction': Math.sign(active - i),
                     '--abs-offset': Math.abs(active - i) / 3,
                     'pointer-events': active === i ? 'auto' : 'none',

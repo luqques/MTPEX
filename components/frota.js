@@ -7,6 +7,7 @@ import SectionTitle from "./sectionTitle";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import c4Lounge from "../public/img/c4-lounge.jpg";
+import "../css/styles.css";
 
 const CARDS = 10;
 const MAX_VISIBILITY = 3;

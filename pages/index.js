@@ -40,8 +40,8 @@ const Home = () => {
       </SectionTitle>
       <Video /> */}
 
-      <a id="frota" />
-      <Frota />
+      {/* <a id="frota" />
+      <Frota /> */}
 
       {/* <a id="avaliacoes" />
       <Avaliacoes /> */}

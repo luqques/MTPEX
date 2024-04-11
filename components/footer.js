@@ -41,7 +41,7 @@ export default function Footer() {
               confiança nas suas viagens.
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -54,7 +54,7 @@ export default function Footer() {
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -103,13 +103,7 @@ export default function Footer() {
                 <span className="sr-only">WhatsApp</span>
                 <WhatsApp />
               </a>
-              <a
-                href="mailto:email@example.com?subject=Assunto%20do%20Email&body=Corpo%20do%20Email"
-                target="_blank"
-                rel="noopener">
-                <span className="sr-only">E-mail</span>
-                <Email />
-              </a>
+              
               {/* <a
                 href="https://linkedin.com/"
                 target="_blank"
@@ -118,16 +112,19 @@ export default function Footer() {
                 <Linkedin />
               </a> */}
             </div>
+            <div className="text-gray-500">
+              E-mail profissional: <link>luques.cunha@gmail.com</link>
+            </div>
           </div>
         </div>
 
         <div className="my-10 text-sm text-center text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
+          Copyright © {new Date().getFullYear()}. Feito por{" "}
           <a
             href="https://web3templates.com/"
             target="_blank"
             rel="noopener">
-            Web3Templates.
+            Lucas da Cunha
           </a>{" "}
           Illustrations from{" "}
           <a
@@ -139,7 +136,7 @@ export default function Footer() {
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      {/* <Backlink /> */}
     </div>
   );
 }

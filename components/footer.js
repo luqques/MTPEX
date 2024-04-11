@@ -103,13 +103,13 @@ export default function Footer() {
                 <span className="sr-only">WhatsApp</span>
                 <WhatsApp />
               </a>
-              <a
+              {/* <a
                 href="mailto:email@example.com?subject=Assunto%20do%20Email&body=Corpo%20do%20Email"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">E-mail</span>
                 <Email />
-              </a>
+              </a> */}
               {/* <a
                 href="https://linkedin.com/"
                 target="_blank"

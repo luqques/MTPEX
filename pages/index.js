@@ -49,6 +49,7 @@ const Home = () => {
       <a id="duvidas" />
       <Faq />
 
+      <a id="agendamento" />
       <Orcamento />
 
       <Footer />

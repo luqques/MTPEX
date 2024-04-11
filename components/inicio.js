@@ -17,7 +17,7 @@ const Inicio = () => {
 
           <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
             <a
-              href="https://api.whatsapp.com/send?phone=554784453397"
+              href="https://api.whatsapp.com/send?phone=554784453397&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site."
               target="_blank"
               className="flex px-8 py-4 text-lg font-medium text-center text-white bg-green-500 rounded-md hover:bg-green-700 transition-colors">
               Agende sua viagem!

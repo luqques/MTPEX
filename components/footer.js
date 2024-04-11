@@ -72,7 +72,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div>
+          <div className="w-64">
             <div className="text-gray-400">Siga-nos e entre em contato!</div>
             <div className="flex mt-5 space-x-5 text-gray-400">
               {/* <a
@@ -97,13 +97,12 @@ export default function Footer() {
                 <Instagram />
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=554784453397"
+                href="https://api.whatsapp.com/send?phone=554784453397&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site."
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">WhatsApp</span>
                 <WhatsApp />
               </a>
-              
               {/* <a
                 href="https://linkedin.com/"
                 target="_blank"
@@ -112,8 +111,8 @@ export default function Footer() {
                 <Linkedin />
               </a> */}
             </div>
-            <div className="text-gray-500">
-              E-mail profissional: <link>luques.cunha@gmail.com</link>
+            <div className="mt-5 text-gray-500">
+              E-mail:{" "} <a href="mailto:marciomtpex@gmail.com">marciomtpex@gmail.com</a>
             </div>
           </div>
         </div>
@@ -124,14 +123,7 @@ export default function Footer() {
             href="https://web3templates.com/"
             target="_blank"
             rel="noopener">
-            Lucas da Cunha
-          </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
+            Lucas da Cunha.
           </a>
         </div>
       </Container>

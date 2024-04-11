@@ -23,11 +23,11 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 border-trueGray-700 lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-red-600 text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-gray-100">
                 <Image
                   src={mtpexlogo}
                   width="150"
@@ -36,7 +36,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 text-gray-400">
+            <div className="max-w-md mt-4 text-gray-400">
               A MTPEX fornece serviços de viagens executivas para empresas que desejam ter
               confiança nas suas viagens.
             </div>

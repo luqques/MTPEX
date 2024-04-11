@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0 z-10">
         {/* Logo */}
         <Disclosure>
           {({ open }) => (
@@ -69,7 +69,7 @@ const Navbar = () => {
                       <a
                         key={index}
                         href={`#${item.id}`}
-                        className="w-full px-4 py-2 -ml-4 rounded-md text-gray-300 focus:bg-gray-800 focus:outline-none"
+                        className="w-full z-10 px-4 py-2 -ml-4 rounded-md text-gray-300 focus:bg-gray-800 focus:outline-none"
                       >
                         {item.name}
                       </a>

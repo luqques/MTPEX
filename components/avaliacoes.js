@@ -77,7 +77,7 @@ function Avatar(props) {
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
-        <div className="text-gray-600 text-gray-400">{props.title}</div>
+        <div className="text-gray-400">{props.title}</div>
       </div>
     </div>
   );
@@ -87,7 +87,7 @@ function Mark(props) {
   return (
     <>
       {" "}
-      <mark className="text-red-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 ring-red-900 bg-red-900 text-indigo-200">
+      <mark className="rounded-md ring-4 ring-red-900 bg-red-900 text-indigo-200">
         {props.children}
       </mark>{" "}
     </>

@@ -52,11 +52,11 @@ const faqdata = [
   },
   {
     question: "Os motoristas são treinados para atender às preferências do cliente?",
-    answer: "Sim, motoristas executivos são treinados para oferecer um atendimento personalizado, respeitando as preferências e necessidades individuais dos passageiros.",
+    answer: "Sim, nossos motoristas são preparados para oferecer um atendimento personalizado, respeitando as preferências e necessidades individuais dos passageiros.",
   },
   {
     question: "Por onde consigo agendar uma viagem?",
-    answer: "Via WhatsApp, E-mail ou ligação. O que você achar melhor!",
+    answer: "Via WhatsApp, E-mail, Instagram ou Formulário. O que você achar melhor!",
   },
 ];
 

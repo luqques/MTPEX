@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 // import Avaliacoes from "../components/avaliacoes";
 import Faq from "../components/faq";
 import Frota from "../components/frota";
-// import Cta from "../components/cta";
+import Orcamento from "../components/orcamento";
 // import Video from "../components/video";
 
 const Home = () => {
@@ -49,7 +49,7 @@ const Home = () => {
       <a id="duvidas" />
       <Faq />
 
-      {/* <Cta /> */}
+      <Orcamento />
 
       <Footer />
     </>

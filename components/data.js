@@ -1,7 +1,7 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
+  BriefcaseIcon,
+  BuildingOffice2Icon,
+  ClockIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
@@ -17,17 +17,17 @@ const beneficioUm = {
     {
       title: "Profissionalismo",
       desc: " Nossos motoristas são experientes e treinados, estão comprometidos com a segurança e o bem-estar dos passageiros.",
-      icon: <FaceSmileIcon />,
+      icon: <BriefcaseIcon />,
     },
     {
       title: "Abrangência",
-      desc: "Todo o Vale do Itajaí, Oeste Catarinense, Litoral Norte e Sul, Paraná, Rio Grande do Sul e Aeroportos de Navegantes, Florianópolis, Joinville, Curitiba, dentre outros sob consulta",
-      icon: <ChartBarSquareIcon />,
+      desc: "Todo o Vale do Itajaí, Oeste Catarinense, Litoral Norte e Sul, Paraná, Rio Grande do Sul e Aeroportos de Navegantes, Florianópolis, Joinville, Curitiba, dentre outros sob consulta.",
+      icon: <BuildingOffice2Icon />,
     },
     {
       title: "Pontualidade",
       desc: "Valorizamos o tempo dos nossos clientes e nos esforçamos para garantir que todas as viagens sejam pontuais, proporcionando tranquilidade e eficiência",
-      icon: <CursorArrowRaysIcon />,
+      icon: <ClockIcon />,
     },
   ],
 };

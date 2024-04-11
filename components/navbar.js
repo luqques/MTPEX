@@ -5,7 +5,7 @@ import mtpexLogo from "../public/img/mtpex-logo-3.png";
 const Navbar = () => {
   const navigation = [
     { name: "Benefícios", id: "beneficios" },
-    { name: "Frota", id: "frota" },
+    // { name: "Frota", id: "frota" },
     // { name: "Avaliações", id: "avaliacoes" },
     { name: "Dúvidas", id: "duvidas" },
   ];

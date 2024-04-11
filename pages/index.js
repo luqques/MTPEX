@@ -14,12 +14,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Márcio MTPEX</title>
+        <title>MTPEX</title>
         <meta
           name="description"
-          content="Márcio MTPEX"
+          content="MTPEX"
         />
-        <link rel="icon" href="../public/img/mtpex-logo-3.png" />
+        <link rel="icon" href="../public/favicon.ico" />
       </Head>
 
       <Navbar />

@@ -26,7 +26,7 @@ const Navbar = () => {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <a href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-red-600 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium">
                     <span>
                       <Image
                         src={mtpexLogo}
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                  className="px-2 py-1 ml-auto rounded-md lg:hidden focus:outline-none text-gray-300 focus:bg-trueGray-700"
                 >
                   <svg
                     className="w-6 h-6 fill-current"
@@ -69,7 +69,7 @@ const Navbar = () => {
                       <a
                         key={index}
                         href={`#${item.id}`}
-                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                        className="w-full px-4 py-2 -ml-4 rounded-md text-gray-300 focus:bg-gray-800 focus:outline-none"
                       >
                         {item.name}
                       </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 <a
                   href={`#${menu.id}`}
                   onClick={() => handleScrollToSection(menu.id)}
-                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800"
+                  className="inline-block px-4 py-2 text-lg font-normal no-underline rounded-md hover:opacity-50 transition-opacity text-gray-200 focus:outline-none focus:bg-gray-800"
                 >
                   {menu.name}
                 </a>

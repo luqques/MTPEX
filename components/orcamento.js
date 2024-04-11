@@ -17,7 +17,7 @@ const Orcamento = () => {
             Em breve retornamos o contato via WhatsApp ou E-mail!
           </p>
         </div>
-        <div className="flex-shrink-0 w-full text-center lg:w-auto">
+        <div className="flex-shrink-0 w-full text-center lg:w-auto hover:opacity-90 transition-opacity">
           <a
             href="https://form.jotform.com/240986659907072 "
             target="_blank"

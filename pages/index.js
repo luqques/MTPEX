@@ -13,14 +13,14 @@ import Orcamento from "../components/orcamento";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>MTPEX</title>
+      < Head >
+        <title>MTPEX Transporte Executivo</title>
         <meta
           name="description"
           content="MTPEX"
         />
-        <link rel="icon" href="../public/favicon.ico" />
-      </Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head >
 
       <Navbar />
 

@@ -8,4 +8,11 @@
   body {
     @apply bg-trueGray-900;
   }
+
+  @media (min-width: 1280px) and (max-width: 1700px) {
+    body {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
 }

@@ -8,7 +8,7 @@ export default function Footer() {
   const navigation = [
     { name: "Início", id: "inicio" },
     { name: "Benefícios", id: "beneficios" },
-    // { name: "Frota", id: "frota" },
+    { name: "Frota", id: "frota" },
     // { name: "Avaliações", id: "avaliacoes" },
     { name: "Dúvidas", id: "duvidas" },
   ];

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 import c4LoungeImage from "../public/img/c4-lounge.png";
-import sentraImage from "../public/img/sentra.png";
+import sentraImage from "../public/img/sentra.jpg";
 import cruzeImage from "../public/img/cruze.png";
 import hrvImage from "../public/img/hr-v.png";
 import civicImage from "../public/img/civic.png";

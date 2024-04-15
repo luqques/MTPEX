@@ -114,17 +114,15 @@ export default function Footer() {
             <div className="mt-5 text-gray-500">
               E-mail:{" "} <a href="mailto:marciomtpex@gmail.com">marciomtpex@gmail.com</a>
             </div>
+            <div className="mt-5 text-gray-500">
+              Telefone:{" "} <a>+55 (47) 98445-3397</a>
+            </div>
           </div>
         </div>
 
         <div className="my-10 text-sm text-center text-gray-400">
           Copyright © {new Date().getFullYear()}. Feito por{" "}
-          <a
-            href="https://web3templates.com/"
-            target="_blank"
-            rel="noopener">
-            Lucas da Cunha.
-          </a>
+          <a>Lucas da Cunha.</a>
         </div>
       </Container>
       {/* Do not remove this */}

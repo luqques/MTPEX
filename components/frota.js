@@ -5,7 +5,7 @@ import Styles from "../css/frota.module.css";
 import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
-import c4LoungeImage from "../public/img/c4-lounge.png";
+import c4LoungeImage from "../public/img/c4-lounge.jpg";
 import sentraImage from "../public/img/sentra.jpg";
 import cruzeImage from "../public/img/cruze.png";
 import hrvImage from "../public/img/hr-v.png";
@@ -79,8 +79,8 @@ function Frota() {
                 {cards.map((card, index) => (
                     <div className={Styles.item} ref={el => itemsRef.current[index] = el} key={index}>
                         <Image src={card.image} alt={card.title} className="rounded-t-lg drop-shadow-2xl w-full md:w-full lg:w-full" />
-                        <p className="max-w-1xl mt-4 px-3 text-2xl font-bold leading-snug tracking-tight lg:leading-tight lg:text-4xl text-white">{card.title}</p>
-                        <p className="max-w-1xl py-4 text-sm md:text-lg lg:text-xl xl:text-xl leading-normal text-gray-300 z-10 px-3">{card.description}</p>
+                        <p className="max-w-1xl my-5 px-3 text-2xl font-bold leading-snug tracking-tight lg:leading-tight lg:text-4xl text-white">{card.title}</p>
+                        {/* <p className="max-w-1xl py-4 text-sm md:text-lg lg:text-xl xl:text-xl leading-normal text-gray-300 z-10 px-3">{card.description}</p> */}
                     </div>
                 ))}
                 <div className="absolute bottom-0 left-0 right-0 flex place-content-evenly sm:bottom-10 md:justify-center md:bottom-10 lg:justify-center lg:bottom-10 xl:justify-center xl:bottom-10 2xl:justify-center 2xl:bottom-8 px-4">

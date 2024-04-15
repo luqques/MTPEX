@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: "Frota", id: "frota" },
     // { name: "Avaliações", id: "avaliacoes" },
     { name: "Dúvidas", id: "duvidas" },
-    { name: "Agendamento", id: "agendamento" },
+    { name: "Contato", id: "contato" },
   ];
 
   const handleScrollToSection = (id) => {

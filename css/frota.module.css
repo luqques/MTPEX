@@ -72,7 +72,5 @@
 
 #next:hover,
 #prev:hover {
-    transition: 0.5s;
-    opacity: 0.4;
     cursor: pointer;
 }

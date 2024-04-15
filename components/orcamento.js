@@ -11,10 +11,10 @@ const Orcamento = () => {
             Pronto para viajar conosco?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Clique no botão para acessar nosso formulário para agendar sua viagem ou solicitar seu orçamento!
+            Clique no botão para acessar nosso formulário e agendar sua viagem ou solicitar seu orçamento!
           </p>
           <p className="mt-2 font-normal text-white text-opacity-50 lg:text-xs">
-            Em breve retornamos o contato via WhatsApp ou E-mail!
+            Retornamos o contato em breve via WhatsApp ou E-mail!
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto hover:opacity-90 transition-opacity">

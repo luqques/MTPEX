@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 // import Avaliacoes from "../components/avaliacoes";
 import Faq from "../components/faq";
 import Frota from "../components/frota";
+import Objetivos from "../components/objetivos";
 import Orcamento from "../components/orcamento";
 // import Video from "../components/video";
 
@@ -45,6 +46,9 @@ const Home = () => {
 
       {/* <a id="avaliacoes" />
       <Avaliacoes /> */}
+
+      <a id="objetivos" />
+      <Objetivos />
 
       <a id="duvidas" />
       <Faq />

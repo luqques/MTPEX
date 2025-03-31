@@ -5,7 +5,7 @@ import Styles from "../css/frota.module.css";
 import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
-import cruzeMidnight from "../public/img/cruze-midnight.png";
+import cruzeMidnight from "../public/img/cruze-midnight.jpg";
 import sentraImage from "../public/img/sentra.jpg";
 import cruzeImage from "../public/img/cruze.png";
 import hrvImage from "../public/img/hr-v.png";

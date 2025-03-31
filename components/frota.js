@@ -5,7 +5,7 @@ import Styles from "../css/frota.module.css";
 import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
-import c4LoungeImage from "../public/img/c4-lounge.jpg";
+import cruzeMidnight from "../public/img/cruze-midnight.jpg";
 import sentraImage from "../public/img/sentra.jpg";
 import cruzeImage from "../public/img/cruze.png";
 import hrvImage from "../public/img/hr-v.png";
@@ -62,7 +62,7 @@ function Frota() {
 
     const cards = [
         { image: cruzeImage, title: "Chevrolet Cruze", description: "Motorista: Felipe Medeiros" },
-        { image: c4LoungeImage, title: "Citroën C4 Lounge", description: "Motorista: Angélica da Cunha" },
+        { image: cruzeMidnight, title: "Chevrolet Cruze Midnight", description: "Motorista: Angélica da Cunha" },
         { image: sentraImage, title: "Nissan Sentra", description: "Motorista: Márcio da Cunha" },
         { image: civicImage, title: "Honda Civic", description: "Motorista: William Douglas" },
         { image: hrvImage, title: "Honda HR-V", description: "Motorista: André Maurício" },
